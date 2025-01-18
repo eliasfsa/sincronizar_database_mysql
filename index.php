@@ -107,7 +107,7 @@ function configurarConexoes() {
         ];
     }
     return [
-        'origem' => ['host' => 'localhost', 'dbname' => 'pdvweb', 'user' => 'root', 'pass' => '1234'],
+        'origem' => ['host' => 'localhost', 'dbname' => 'origen_db', 'user' => 'root', 'pass' => '1234'],
         'destino' => ['host' => 'localhost', 'dbname' => 'destino_db', 'user' => 'root', 'pass' => '1234']
     ];
 }
